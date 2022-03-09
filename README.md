@@ -1,6 +1,6 @@
 # Calculator
 
-# Calculator use instructions
+# Small Calculator Project for Beginner 
 
--Start your calculator
-- patati patata
+-Start your calculator with HTML,CSS and JavaScript
+
