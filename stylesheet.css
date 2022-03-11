@@ -16,3 +16,26 @@ section {
     height: 50vh;
 }
 
+.calbrand {
+    text-align: center;
+    border: 2px solid #333;
+}
+
+
+
+.buttons {
+    background-color: rgb(110, 107, 107);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+
+.display {
+    border: 2px solid var(--dark-color);
+}
+
+
+.btn {
+    border: 5px solid var(--dark-color);
+    height: 100px;
+    width: 50px;
+}
