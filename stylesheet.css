@@ -14,6 +14,8 @@ section {
     background-color: aqua;
     width: 30%;
     height: 50vh;
+    border-radius: 8px;
+    box-shadow: 12px 12px 12px #cbced1, -12px -12px 20px #ffffff;
 }
 
 .calbrand {
@@ -31,6 +33,8 @@ section {
 
 .display {
     border: 2px solid var(--dark-color);
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+
 }
 
 
@@ -38,4 +42,8 @@ section {
     border: 5px solid var(--dark-color);
     height: 100px;
     width: 50px;
+    margin-top: 1.7em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
