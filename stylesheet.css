@@ -1,49 +1,16 @@
-:root {
-    --text-shadow: 5px 2px 2px rgba(0 ,0, 0, 0.8);
-    --light-color: #ddd;
-    --dark-color: #333;
-    --main-radus: 5px;
-}
-
 body {
-   margin: 5;
-   padding: 0; 
+    padding: 0;
+    margin: 0;
 }
+.container {
+    width: 45%;
+    height: 45vh;
 
-section {
-    background-color: aqua;
-    width: 30%;
-    height: 50vh;
-    border-radius: 8px;
-    box-shadow: 12px 12px 12px #cbced1, -12px -12px 20px #ffffff;
 }
-
-.calbrand {
-    text-align: center;
-    border: 2px solid #333;
-}
-
-
-
-.buttons {
-    background-color: rgb(110, 107, 107);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;  
-}
-
 .display {
-    border: 2px solid var(--dark-color);
-    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
-
-}
-
-
-.btn {
-    border: 5px solid var(--dark-color);
-    height: 100px;
-    width: 50px;
-    margin-top: 1.7em;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
 }
