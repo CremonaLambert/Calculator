@@ -76,8 +76,14 @@ p {
     color: #fff;
 }
 
+#equal:hover {
+    background-color: #097191;
+
+}
+
 .button:hover {
     background-color: #097191;
     transition: 0.5s ease-in-out;
+    color: #fff;
 }
 
