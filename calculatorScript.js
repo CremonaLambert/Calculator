@@ -1,6 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
+const getvalues = document.querySelector('.buttons').addEventListener('click', function(e){
+const value = e.target.innerText;
+// const btn1 =document.querySelector('#one').value;
 
-    const displayed = document.getElementById("display")
-    displayed.style.backgroundColor = "red"
+const sreenHtml = `<p>${value}</p>`;
+// console.log(sreenHtml);
 
-})
+const display = document.querySelector('.display p').innerText = `${value}`;
+
+console.log(display);
+});
