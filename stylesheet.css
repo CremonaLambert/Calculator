@@ -11,22 +11,29 @@ body {
 
 
 .container {
-    max-width: 400px;
+    max-width: 300px;
     margin: 10vh auto 0 auto;
     border-radius: 8px;
-    border: 3px solid #000;
 }
 
 .innercontainer {
     border: 3px solid rgb(115, 2, 21);
-    margin: 5px;
+    border-radius: 5px;
+    max-width: 210px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-p {
-    border: 3px solid #065c2a;
-    padding: 10px;
-    border-radius: 5px;
 
+input {
+    border: 3px solid #065c2a;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
 }
 
 
@@ -35,30 +42,26 @@ p {
     text-align: right;
     padding: 30px 20px;
     font-size: 30px;
-    line-height: 70px;
+    max-width: 200px;
+    margin: 0 auto;
 }
-
+ button {
+    margin: 2px;
+    border: solid 1px #065c2a;
+    border-radius: 2.5px;
+ }
 
 .keyboard {
     border: 3px solid #0c0372;
-    margin: 10px;
+    margin: 5px;
 }
-
-
-.button {
-    border: 0.5px solid #999;
-    line-height: 100px;
-    font-size: 30px;
-    border-radius: 8px; 
-}
-
 
 .buttons {
-    display: grid;
+    border: 2px solid rgb(212, 212, 22);
     grid-template-columns: repeat(4, 1fr);
+    display: grid;
     text-align: center;
     color: rgb(20, 2, 44);
-    border: 2px solid rgb(212, 212, 22);
     margin: 5px;
 }
 
@@ -71,6 +74,7 @@ p {
 
 #equal:hover {
     background-color: #097191;
+    transition: 0.5s ease-in-out
 
 }
 
