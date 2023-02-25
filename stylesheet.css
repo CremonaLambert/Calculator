@@ -82,7 +82,8 @@ input {
 
 
 #equal:hover {
-    background-color: #097191;
+    background-color: #065c2a;
+    border: 2px solid #000;
     transition: 0.5s ease-in-out
 }
 
@@ -116,5 +117,5 @@ input {
 .cremona {
     font-size: 10px;
     margin-top: 10px;
-    color: #c8ca32;
+    color: #60daf8;
 }
