@@ -3,7 +3,7 @@
 
     let display = document.getElementById('display');
     // console.log(display.value);
-    let buttons = document.querySelectorAll('.btn');
+    let buttons = document.querySelectorAll('.btnv');
     let del = document.querySelector('#delete');
     let clear = document.querySelector('#clear');
     let equal = document.querySelector('#equal');

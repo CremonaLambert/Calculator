@@ -17,34 +17,39 @@ body {
 }
 
 .innercontainer {
-    border: 3px solid rgb(115, 2, 21);
+    /* border: 3px solid rgb(115, 2, 21); */
+    background-color: #323232;
     border-radius: 5px;
-    max-width: 210px;
+    max-width: 200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 15px;
 }
 
 
 input {
     border: 3px solid #065c2a;
+    width: 200px;
     background-color: #000;
     color: #fff;
     padding: 5px;
     border-radius: 5px;
     text-align: right;
+    padding: 15px;
+    margin: ;
 }
 
 
-.display {
+/* .display {
     background-color: #fff;
     text-align: right;
     padding: 30px 20px;
     font-size: 30px;
     max-width: 200px;
     margin: 0 auto;
-}
+} */
  button {
     margin: 2px;
     border: solid 1px #065c2a;
@@ -62,7 +67,9 @@ input {
     display: grid;
     text-align: center;
     color: rgb(20, 2, 44);
+    padding: 8px;
     margin: 5px;
+    gap: 5px;
 }
 
 
@@ -84,4 +91,11 @@ input {
     transition: 0.5s ease-in-out;
     color: #fff;
 }
-
+.btn {
+    width: 38px;
+    height: 20px;
+    border: 3px solid #065c2a;
+}
+.btnv {
+    border: 3px solid #065c2a;
+}
